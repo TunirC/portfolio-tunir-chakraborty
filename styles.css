@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&display=swap');
+
+:root{
+    --primary_col: #60A5FA;
+    --secondary_col:#FBBF24;
+}
+
+h1,h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 18px;
+}
+
+.container-center{
+    max-width: 500px;
+    margin:auto;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+hr{
+    margin: 1.5rem;
+}
+
+.link-primary{
+    color: white;
+    border-radius: 0.5rem;
+    background-color:var(--primary_col);
+}
+.link-secondary{
+    color: var(--primary_col);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary_col);
+    /* background-color:var(--primary_col);*/
+}
+
+/* Check BEM naming convention method for CSS */
