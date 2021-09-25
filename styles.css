@@ -3,13 +3,15 @@
 :root{
     --primary_col: #60A5FA;
     --secondary_col:#FBBF24;
+    --heading_col:#92400E;
+    --custom-gray:#D1D5DB;
 }
 
 h1,h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
-p{
+p, li{
     font-family: 'Lato', sans-serif;
 }
 
@@ -24,16 +26,18 @@ p{
     margin:auto;
 }
 
+hr{
+    margin: 1.5rem 0rem;
+}
+
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-family: 'Lato', sans-serif;
+    color: black;
 }
 
-hr{
-    margin: 1.5rem;
-}
-
+/* links */
 .link-primary{
     color: white;
     border-radius: 0.5rem;
@@ -46,4 +50,75 @@ hr{
     /* background-color:var(--primary_col);*/
 }
 
+/* Lists */
+.list-non-bullet-style{
+    list-style: none;
+}
+
+.list-inline-style{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* Navigation */
+.navigation {
+    background-color: var(--secondary_col);
+    color: white; 
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand {
+    font-weight:bold;
+    font-size: 3rem;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.navigation .link{
+    font-size: 20px;
+}
+.navigation .list-non-bullet-style {
+    /* color: white; */
+    text-align: right;
+    padding: 1rem;
+    /* font-size: 1.3rem; */
+}
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/* Hero  */
+.hero {
+    padding: 2rem;
+}
+.hero .hero-img {
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+.hero .hero-heading {
+    color: var(--heading_col);
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.hero .hero-heading .heading-section {
+    color: var(--secondary_col);
+    font-size: 3rem;
+}
+
+/* Section */
+.section {
+    padding: 1rem 4rem;
+}
+.section h1{
+    text-align: center;
+    font-weight: bold;
+}
+.section p{
+    text-align: center;
+}
+.ow {
+    background-color: var(--custom-gray);
+    /* border-radius: 1rem; */
+}
 /* Check BEM naming convention method for CSS */

@@ -16,8 +16,8 @@
         Here, we will be seeing the various components which are used in website creation. </p>
     <hr>
     <h2>@Typography</h2>
-    <small>Lets start with checking what are the typography options... like for this text, we are using small
-        tag</small>
+    <div>Lets start with checking what are the typography options.</div>
+    <small>For this text, we are using small tag</small>
     <p>This is a paragraph.</p>
     <p>This line includes a <strong>Bold</strong> element</p>
     <h3>Here's an H3 tag content</h3>
@@ -33,51 +33,62 @@
     <hr>
     <h2>@Lists</h2>
     <h3>Unordered List</h3>
-    <ul>
+    <ul class="list-non-bullet-style">
         <li> Unordered List object 1</li>
         <li> Unordered List object 2</li>
         <li> Unordered List object 3</li>
     </ul>
     <h3>Ordered List</h3>
-    <ol>
-        <li>Ordered List obj 1</li>
-        <li>Ordered List obj 2</li>
-        <li>Ordered List obj 3</li>
+    <ol class="list-non-bullet-style">
+        <li class="list-inline-style">Ordered List obj 1</li>
+        <li class="list-inline-style">Ordered List obj 2</li>
+        <li class="list-inline-style">Ordered List obj 3</li>
     </ol>
     <h3>Reverse Ordered List</h3>
-    <ol>
+    <ol reversed>
         <li>Reverse Ordered List obj 1</li>
         <li>Reverse Ordered List obj 2</li>
         <li>Reverse Ordered List obj 3</li>
     </ol>
+    <hr>
     <h2>@Nav </h2>
-    <nav>
-        <ul>
-            <li>
-                <a href="/">Home</a>
-            </li>
-            <li>
-                <a href="/">Products</a>
-                <a href="/">Help</a>
-            </li>
+    <nav class="navigation container">
+        <div class="nav-brand">Brand Name</div>
+        <ul class="list-non-bullet-style">
+            <li class="list-inline-style">
+                <a class="link link-active" href="/">Home</a>
+            </li class="list-inline-style">
+            <li class="list-inline-style">
+                <a class="link " href="/">Products</a>
+            </li class="list-inline-style">
+            <li class="list-inline-style">
+                <a class="link " href="/">Help</a>
+            </li class="list-inline-style">
         </ul>
     </nav>
     <hr>
     <h2>@header</h2>
-    <header>
-        <img src="web_img/undraw_Lost_online_re_upmy.svg" />
-        <h1>Heading inside header</h1>
+    <header class="hero container">
+        <img class="hero-img" src="web_img/undraw_Lost_online_re_upmy.svg" />
+        <h1 class="hero-heading">Heading inside <span class="heading-section">header</span> </h1>
     </header>
+    <hr>
     <h2>@Section</h2>
-    <section>
-        <h3>White Section</h3>
-        <p>This is a white section</p>
+    <section class="section">
+        <h1>White Section</h1>
+        <div class="container-center">
+            <p>This is a <strong>White</strong> section</p>
+            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+        </div>
     </section>
-    <section>
-        <h3>Off White Section</h3>
-        <p>This is an off white section</p>
+    <section class="section ow">
+        <h1>Off White Section</h1>
+        <div class="container-center">
+            <p>This is an <strong>Off White</strong> section</p>
+            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
+        </div>
     </section>
-
+    <hr>
     <h2>@Footer</h2>
     <footer>
         <div>Some small headin inside the footer</div>
