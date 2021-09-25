@@ -35,7 +35,7 @@ li {
 }
 
 hr {
-    margin: 2rem 20rem;
+    margin: 2rem 15rem;
 }
 
 .link {
@@ -58,6 +58,12 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--secondary_col);
     /* background-color:var(--primary_col);*/
+}
+
+.link-primary-2 {
+    color: var(--secondary_col);
+    border-radius: 2rem;
+    border: 1px solid var(--secondary_col);
 }
 
 /* Lists */
