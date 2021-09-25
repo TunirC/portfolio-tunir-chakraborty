@@ -1,36 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&display=swap');
 
-:root{
+:root {
     --primary_col: #60A5FA;
-    --secondary_col:#FBBF24;
-    --heading_col:#92400E;
-    --custom-gray:#D1D5DB;
+    --secondary_col: #FBBF24;
+    --heading_col: #92400E;
+    --custom-gray:#E5E7EB;
+    --font_col:#374151;
 }
-
-h1,h2 {
+body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
-p, li{
+p,
+li {
     font-family: 'Lato', sans-serif;
 }
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 18px;
 }
 
-.container-center{
+.container-center {
     max-width: 500px;
-    margin:auto;
+    margin: auto;
 }
 
-hr{
+hr {
     margin: 1.5rem 0rem;
 }
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-family: 'Lato', sans-serif;
@@ -38,12 +40,13 @@ hr{
 }
 
 /* links */
-.link-primary{
+.link-primary {
     color: white;
     border-radius: 0.5rem;
-    background-color:var(--primary_col);
+    background-color: var(--primary_col);
 }
-.link-secondary{
+
+.link-secondary {
     color: var(--primary_col);
     border-radius: 0.5rem;
     border: 1px solid var(--primary_col);
@@ -51,11 +54,11 @@ hr{
 }
 
 /* Lists */
-.list-non-bullet-style{
+.list-non-bullet-style {
     list-style: none;
 }
 
-.list-inline-style{
+.list-inline-style {
     display: inline;
     padding: 0rem 0.5rem;
 }
@@ -63,44 +66,51 @@ hr{
 /* Navigation */
 .navigation {
     background-color: var(--secondary_col);
-    color: white; 
+    color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
+
 .navigation .nav-brand {
-    font-weight:bold;
+    font-weight: bold;
     font-size: 3rem;
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
-.navigation .link{
+
+.navigation .link {
     font-size: 20px;
 }
+
 .navigation .list-non-bullet-style {
     /* color: white; */
     text-align: right;
     padding: 1rem;
     /* font-size: 1.3rem; */
 }
+
 .navigation .link-active {
     font-weight: bold;
 }
 
-/* Hero  */
+/* Hero/Header  */
 .hero {
     padding: 2rem;
 }
+
 .hero .hero-img {
     max-width: 300px;
     margin: auto;
     display: block;
 }
+
 .hero .hero-heading {
     color: var(--heading_col);
     text-align: center;
     font-size: 2rem;
     padding-top: 1rem;
 }
+
 .hero .hero-heading .heading-section {
     color: var(--secondary_col);
     font-size: 3rem;
@@ -110,15 +120,40 @@ hr{
 .section {
     padding: 1rem 4rem;
 }
-.section h1{
+
+.section h1 {
     text-align: center;
     font-weight: bold;
 }
-.section p{
+
+.section p {
     text-align: center;
 }
+
 .ow {
     background-color: var(--custom-gray);
     /* border-radius: 1rem; */
 }
+
+/* Footers */
+.footer {
+    text-align: center;
+}
+.footer .container{
+    font-size: 16px;
+    background-color: var(--secondary_col);
+    padding: 1.4rem;
+    border-radius: 0rem 1rem 0rem 1rem;
+}
+.footer-heading {
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+}
+.footer .list-non-bullet-style {
+    padding-inline-start: 0px;
+    color:var(--font_col);
+    font-weight: bold;
+}
+
 /* Check BEM naming convention method for CSS */
