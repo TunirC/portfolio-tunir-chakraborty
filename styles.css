@@ -123,7 +123,12 @@ hr {
     padding-top: 1rem;
 }
 
-.hero .hero-heading .heading-section {
+/* .hero .hero-heading .heading-section {
+    color: var(--secondary_col);
+    font-size: 3rem;
+} */
+
+.heading-section {
     color: var(--secondary_col);
     font-size: 3rem;
 }
