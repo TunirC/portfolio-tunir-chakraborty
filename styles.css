@@ -39,7 +39,7 @@ li {
 }
 
 hr {
-    margin: 2rem 15rem;
+    margin: 1rem 13rem;
 }
 
 .link {
@@ -93,7 +93,7 @@ hr {
     padding-right: 1rem;
     padding-top: 0.5rem;
     border-bottom-left-radius: 1rem;
-    margin: 0rem 8rem;
+    margin: 0rem 4rem;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -126,7 +126,7 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 400px;
+    max-width: 380px;
     margin: auto;
     display: block;
 }
@@ -134,8 +134,9 @@ hr {
 .hero .hero-heading {
     color: var(--custom-gray);
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 1rem;
+    margin: 0rem;
 }
 
 /* .hero .hero-heading .heading-section {
@@ -167,6 +168,8 @@ hr {
 .ow {
     background-color: var(--secondary_col);
     color: black;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     /* border-radius: 1rem; */
 }
 
